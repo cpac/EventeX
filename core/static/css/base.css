@@ -1,0 +1,358 @@
+body {
+     background: url("../img/envelopamento_gta.jpg") no-repeat scroll 0% 0% #000000;
+	 background-position: 50% 0;
+color: #856664;
+    font: 11px arial,helvetica;
+    text-align: center;
+}
+
+html, body {
+     height: 100%;
+     margin: 0pt;
+}
+
+#container {
+     height: 100%;
+     margin: 0pt auto;
+     width: 1024px;
+}
+
+
+/* header /////////////////*/
+#header {
+     float: left; paddin-top:15px; width:1024px!important; height:128px
+}
+.logo { margin-left:11px; margin-top:2px; width:312px; height:95px; background-image:url('../images/heroiLogo.png');}
+
+
+#header #icons{
+	 float: right;
+     margin-right: 209px;
+     margin-top: -96px;
+     right: 484px;
+     text-align: right;
+     top: 36px;
+}
+
+#header #icons .icon
+{
+    border:0px;
+    height:45px;
+    width:45px;
+    float:right;
+    background-position: 0px 0px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    position:relative;
+    right:-7px;
+}
+
+#header #icons .icon img
+{
+    border:none;
+}
+
+#header #icons .desc
+{
+    display: none;
+    float:right;
+    font: 10px/10px Verdana;
+    color: #999;
+    text-align: right;
+    cursor: default;
+    padding:2px 6px 2px 6px;
+    background-color:#000;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    position: relative;
+    top:8px;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+
+#header #busca { float:right; margin:-94px 10px 0 0}
+#header #busca input:focus {
+     box-shadow:0px 0px 3px #fbb553;
+     /*background:url("../images/search.png") no-repeat scroll 134px 0 #4b4b4b;*/
+     background:#4b4b4b;
+     color:#999
+}
+#busca input[type=text]{  color: #666;
+	-moz-border-radius:3px;
+	padding:5px 25px 5px 5px;
+	-moz-box-shadow: 0px 0px 2px #666;
+	border:1px solid #111;
+	font:12px Arial, Helvetica, sans-serif;
+	/*background:url("../images/search.png") no-repeat scroll 134px 0 #333;*/
+        background:#333;
+
+ }
+
+
+
+/* CAPA///////////////////*/
+#capa {
+     float: left; width:1000px; height:485px}
+
+#slider-foto-capa {margin:19px 38px 0px 33px}
+
+#container-over-foto{
+	left:322px;
+	opacity:0.9;
+	position:absolute;
+	top:405px;
+	z-index:10;
+	width: 938px;
+	height: 116px;
+	background:#000;
+}
+#texto-over-foto {background:#000; margin-top:3px; padding:15px;}
+#texto-over-foto .titulo {color:#ffA319; font:18px Arial, Helvetica, sans-serif;}
+#texto-over-foto .texto {color:#ffffff; font:12px Arial, Helvetica, sans-serif;}
+
+#twitter {
+     float: left; width:1024px;
+	 text-align:center;
+	 font:bold 22px Georgia, "Times New Roman", Times, serif; font-style:italic; color:#666; padding:15px 0 15px 0; margin-top:15px; margin-bottom:20px
+}
+
+#banner-central {
+     float: left;
+	 width:1024px;
+}
+
+#banner1 {
+    background: none;
+     height: 95px;
+     width: 728px;
+	 margin:0 auto;
+	 margin-bottom:25px
+}
+
+span.publicidade1 {
+     color: #FFFFFF;
+     font: 10px arial;
+}
+
+#colunas {
+     float: left;
+}
+
+/* coluna esquerda ////////////////*/
+
+#videos {
+float:left;
+height:200px;
+margin:0 0 37px;
+width:286px;
+}
+
+#videos h2 {
+color:#fff!important;
+font :22px "bebas",Arial,Helvetica,sans-serif;
+cursor:default;
+margin: 28px 0 -14px;
+padding:0px
+}
+
+#coluna-esquerda {
+     float: left;
+     height: auto;
+     width: 300px;
+	 margin-left:45px!important;
+}
+
+#banner300 {width:300px!important; height:255px!important; margin-top:25px}
+
+.publicidade2{
+	font:11px arial; color:#fff;}
+
+#recomendados h2{color:#fff!important; font :22px "bebas",Arial,Helvetica,sans-serif; padding:0; margin-bottom:3px; cursor:default}
+
+#recomendados #texto{color:#fff;
+					font:11px arial;
+					color:#666;
+					float:left;
+					width:235px;
+					margin-top:5px}
+#recomendados #titulo a{color:#ffb533; text-decoration:none}
+#recomendados #titulo a:hover{color:#fff; text-decoration:none}
+
+#recomendados #image{
+	border: 3px solid #1E1E1E;
+	margin-bottom:5px;
+     padding: 1px;
+	 width:50px;
+	 height:50px;
+	 float:left;
+	 margin-right:5px;
+	 margin-top:5px}
+#divisorEsquerda{margin:0 auto; color:#1c1c1c; clear:both; height:1px; width:300px; background:#1c1c1c; }
+
+#filmeEsquerda h2 {margin-bottom:5px}
+#filmeEsquerda img{border:1px solid #333}
+
+#galeriaEsquerda {width:256px;}
+#galeriaEsquerda img{margin:3px; border:1px solid #333; padding:1px}
+
+
+/* coluna direita //////////////////////////*/
+#coluna-direita {
+     float: left;
+     width: 610px;
+}
+
+#coluna-direita h2{ color:#ffb533; font:39px "bebas",arial,tahoma; margin:24px 0 23px 48px}
+
+
+#coluna-direita h1 {
+color:#ffa500;
+font:normal 27px "bebas",arial;
+}
+
+#ultimas-noticias {
+	 background: url("/images/sidebar_bg.png") repeat-y!important;
+     float: left;
+     margin-left: 26px;
+     padding-left: 13px;
+     width: 610px;
+}
+
+#ultimas-noticias a{ color: #F90; text-decoration:none}
+#ultimas-noticias a:hover{ color: #FC0; text-decoration:none}
+
+#ultimas-noticias .materia_titulo {
+     color: #FFB533;
+     font: 30px "bebas",arial,tahoma;
+     padding-bottom: 0px;	margin-bottom:10px;
+}
+
+#titulonoticiasHome {
+     color: #FFB533;
+     cursor: default;
+     float: left;
+     font: 39px "bebas",arial,tahoma;
+     margin: 25px 0pt 11px 52px;
+     width: 600px;
+}
+
+#postHome {padding:5px; margin:25px 0 0 0; width:610px; float:left}
+#frame{width:181px; padding:5px; margin:-8px 3px 5px 5px ; float:left;}
+#frame img {border: 4px solid #222222;-moz-border-radius:3px; border-radius:3px; -webkit-border-radius:3px}
+
+
+
+#postHome .data{
+    margin:-13px 0 27px;
+	padding:3px;
+	font: 10px arial;
+	color:#fff; padding:3px;
+}
+
+#quando {float:right; background:#222;
+padding:0 3px 0;border-radius:3px; -webkit-border-radius:3px; - moz-border-radius:3px}
+
+#dia {float:left; background:#222; padding:0 3px 0;
+border-radius:3px; -webkit-border-radius:3px; - moz-border-radius:3px}
+
+
+
+#postHome .titulo {font:normal 20px "bebas" arial; color:#ffb533; margin-top:5px}
+#postHome .titulo a{font:normal 20px "bebas",arial; color:#ffb533; margin-top:5px}
+
+
+#postHome .conteudo {font:12px arial; color:#fff ; margin-top:5px}
+
+
+#postadoem {padding-top:5px}
+#postadoem .opcao {color:#333; font: 10px arial }
+
+#postadoem .linkresposta{color:#666; font: 10px arial}
+#postadoem .linkresposta a{color:#666!important; font: 10px arial!important}
+#postadoem .linkresposta a:hover {text-decoration:none; color:#fff!important;}
+
+#postadoem .votosH {color:#222; font: 10px arial}
+
+
+
+#clear {
+     clear: both;
+}
+
+#footer {
+     background: url("../images/footer.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     margin: 0pt auto;
+	width:1024px; margin-bottom:150px; margin-top:80px
+}
+
+/*footer*/
+#linksfooter{float:left; margin:-100px 0 0 400px; border-left:1px solid #111; padding:5px 0 61px 71px}
+#linksfooter li{list-style:none; display:inline; border-right:1px dashed #111; padding-right:6px; padding-bottom:3px;}
+
+#linksfooter a{  color: #333333 ! important;  font: 11px arial;
+     text-shadow: -1px -1px 1px #111;  text-decoration:none;}
+#linksfooter a:hover{text-decoration:none; color:#fff!important}
+#linksfooter .sitemap{font:normal 22px "bebas",arial,tahoma; color:#666; margin-bottom:5px}
+
+#copyrightfooter {float:left; width:500px; font:normal 11px arial; color:#333;margin:-38px 0 0 63px; clear:both}
+
+#anunciefooter {width:250px; float:left; font:normal 11px arial; color:#333;margin:-11px 0 0 208px;}
+#anunciefooter a{color:#333; text-decoration:none;}
+#anunciefooter a:hover {color:#fff; text-decoration:none!important}
+
+#imagemfooter {width:250px; float:left; margin:55px 62px 62px 62px}
+
+
+
+
+/*foooter*/
+
+#paginacao {font: 11px Arial, Helvetica, sans-serif; color:#666; float:left; margin:20px 0 0 57px}
+
+#paginacao a{   background: none repeat scroll 0% 0% #111111;
+     border: 1px solid #222222;
+     color: #FF9900;
+     margin: 0pt 1px 0pt 5px;
+     padding: 0pt 6px;
+     text-decoration: none;}
+#paginacao .pagination-current {margin: 0 1px;}
+#paginacao a:hover{background: none repeat scroll 0% 0% #000000;
+     border: 1px solid #111111;
+     color: #FFCC00;
+     cursor: pointer;
+     text-decoration: none;}
+
+
+#divisorHorizontal {  background: url("../images/Spliter_BlogPostTop_border.png") no-repeat scroll 0pt 0pt transparent;
+     float: left;
+     height: 1px;
+     margin: 25px 0pt -3px 62px;
+     width: 578px}
+
+#titulo {
+     font: bold 11px arial;
+     margin-top: 6px;
+}
+
+#busca #frmBusca fieldset {
+border:none!important;
+}
+
+#busca #frmBusca fieldset button {
+     background: none repeat scroll 0% 0% transparent;
+     border: medium none;
+     margin: 5px 0px 5px -35px;
+     position: absolute;
+     width: 30px;
+     color:transparent;
+     cursor: pointer;
+}
+
+.materia_autor {font:11px arial; color:#666}
+.materia_autor a{color:#333; text-decoration:none;}
+.materia_autor a:hover{color:#FFB533; text-decoration:none}
+
