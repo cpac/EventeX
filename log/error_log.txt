@@ -1,0 +1,51 @@
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1] mod_wsgi (pid=4792): Exception occurred processing WSGI script 'C:/Projetos/eventex/eventex.wsgi'.
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\core\\handlers\\wsgi.py", line 273, in __call__
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\core\\handlers\\base.py", line 169, in get_response
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\core\\handlers\\base.py", line 203, in handle_uncaught_exception
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\views\\debug.py", line 59, in technical_500_response
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\views\\debug.py", line 151, in get_traceback_html
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return t.render(c)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\base.py", line 123, in render
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return self._render(context)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\base.py", line 117, in _render
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\base.py", line 744, in render
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     bits.append(self.render_node(node, context))
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\debug.py", line 73, in render_node
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     result = node.render(context)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\debug.py", line 90, in render
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\base.py", line 536, in resolve
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\template\\defaultfilters.py", line 695, in date
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return format(value, arg)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\dateformat.py", line 285, in format
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return df.format(format_string)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\dateformat.py", line 30, in format
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\dateformat.py", line 191, in r
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\dateformat.py", line 30, in format
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\encoding.py", line 71, in force_unicode
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     s = unicode(s)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\functional.py", line 206, in __unicode_cast
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return self.__func(*self.__args, **self.__kw)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\translation\\__init__.py", line 81, in ugettext
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\translation\\trans_real.py", line 286, in ugettext
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\translation\\trans_real.py", line 276, in do_translate
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\translation\\trans_real.py", line 185, in translation
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\translation\\trans_real.py", line 162, in _fetch
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     app = import_module(appname)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\importlib.py", line 35, in import_module
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     __import__(name)
+[Sun May 15 11:10:17 2011] [error] [client 127.0.0.1] TemplateSyntaxError: Caught ImportError while rendering: No module named core
