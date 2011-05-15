@@ -49,3 +49,4 @@
 [Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]   File "C:\\Python27\\lib\\site-packages\\django\\utils\\importlib.py", line 35, in import_module
 [Sun May 15 11:10:17 2011] [error] [client 127.0.0.1]     __import__(name)
 [Sun May 15 11:10:17 2011] [error] [client 127.0.0.1] TemplateSyntaxError: Caught ImportError while rendering: No module named core
+jf;askjf;s
