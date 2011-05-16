@@ -1,5 +1,5 @@
 body {
-     background: url("{{STATIC_URL}}/img/envelopamento_gta.jpg") no-repeat scroll 0% 0% #000000;
+     background: url("/static/img/envelopamento_gta.jpg") no-repeat scroll 0% 0% #000000;
 	 background-position: 50% 0;
 color: #856664;
     font: 11px arial,helvetica;
