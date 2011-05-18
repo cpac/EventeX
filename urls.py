@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
-# from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from core.views import homepage
 
@@ -21,4 +21,4 @@ urlpatterns = patterns('',
     (r'^$',homepage),
 )
 
-# urlpatterns += staticfiles_urlpatterns()
+urlpatterns += staticfiles_urlpatterns()
