@@ -35,3 +35,4 @@ Segundo Modulo: Inscricao - TODO.
 		 recem cadastrados
 		- template sucesso modificada para exibir parametros
 		 de cadastro
+		- correcao do nome do template para cadastro com sucesso

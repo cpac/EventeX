@@ -38,7 +38,7 @@ def success(request,pk):
     
     context = RequestContext(request, {'subscription': subscription})
     
-    return render_to_response('subscription/success.html', context)
+    return render_to_response('subscription/sucesso.html', context)
 
 
 def new(request):
@@ -61,11 +61,13 @@ def create(request):
         
     subscription = form.save()
     
+    # enviando e-mail
+    
     send_mail(
       subject = u'Inscrição no EventeX',
       message = u'Obrigado por se inscrever no EventeX!',
       from_email = 'contato@eventex.com',
-      recipient_list = [ 'henrique@bastos.net' ],
+      recipient_list = [ 'cursodjangocpac@gmail.com' ],
     )
     
     return HttpResponseRedirect(reverse('subscription:success', args=[ subscription.pk ]))
