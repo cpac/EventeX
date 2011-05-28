@@ -7,5 +7,5 @@ urlpatterns = patterns('subscription.views',
 
         #url(r'^$', 'subscribe', name='subscribe'),
         route(r'^$',GET='new',POST='create',name='subscribe'),
-        url(r'^(\d+)/sucesso/$', 'success', name='success'),
+        url(r'^(?P<id_inscricao>\d+)/sucesso/$', 'success', name='success'),
 )

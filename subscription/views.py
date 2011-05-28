@@ -28,8 +28,9 @@ def subscribe(request):
     
 #    return render_to_response('subscription/new.html', context)
 
-def success(request):
+def success(request,id_inscricao):
 
+  #erwiuryoqiwy
   return render_to_response('subscription/sucesso.html', RequestContext(request))
 
 def new(request):

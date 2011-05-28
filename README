@@ -29,3 +29,5 @@ Segundo Modulo: Inscricao - TODO.
 		- validacao basica funcional
 		- salvando no BD
 		- reverse incluxo - FIX
+		- parametro na view success incluido - FIX
+		- view success funcionando
