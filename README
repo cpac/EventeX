@@ -36,3 +36,4 @@ Segundo Modulo: Inscricao - TODO.
 		- template sucesso modificada para exibir parametros
 		 de cadastro
 		- correcao do nome do template para cadastro com sucesso
+		- inclusao do model para busca dos dados cadastrados - FIX

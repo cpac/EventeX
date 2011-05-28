@@ -3,6 +3,8 @@
 
 from subscription.forms import SubscriptionForm
 
+from subscription.models import Subscription
+
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
