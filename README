@@ -38,3 +38,5 @@ Segundo Modulo: Inscricao - TODO.
 		- correcao do nome do template para cadastro com sucesso
 		- inclusao do model para busca dos dados cadastrados - FIX
 		- botao Voltar agora aponta para a URL correta - FIX
+		- ADMIN habilitado.
+		- BD refeito, com superusuario admin definido
