@@ -31,3 +31,7 @@ Segundo Modulo: Inscricao - TODO.
 		- reverse incluxo - FIX
 		- parametro na view success incluido - FIX
 		- view success funcionando
+		- view success modificada para busca de parametros
+		 recem cadastrados
+		- template sucesso modificada para exibir parametros
+		 de cadastro

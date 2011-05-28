@@ -4,7 +4,17 @@
 
                   <p style="font-size:x-large;">
 
-                            INSCRIÇÃO EFETUADA COM SUCESSO!
+                            <p>Parabéns {{ subscription.name }},</p>
+                            <p>sua inscrição foi realizada em 
+                            {{ subscription.created_at|date:"d/m/Y" }}.
+                            </p>
+                            <p>Em breve, entraremos em contato pelo
+                              {% if subscription.phone %}
+                              telefone {{ subscription.phone }}
+                              {% else %}
+                              e-mail {{ subscription.email }}
+                              {% endif %}
+                            </p>
 
                             <br><br>
                             <input type="button" value="Voltar" class="button"  onClick="window.location='http://eventex.com'">
