@@ -1,0 +1,20 @@
+[
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "pc", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2011-05-28 02:47:18", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$b09f7$d37eeb3d7c222caa93baf0f6f5883e3193176d00", 
+            "email": "cursodjangocpac@gmail.com", 
+            "date_joined": "2011-05-28 02:37:59"
+        }
+    }
+]

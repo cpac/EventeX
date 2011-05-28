@@ -40,3 +40,6 @@ Segundo Modulo: Inscricao - TODO.
 		- botao Voltar agora aponta para a URL correta - FIX
 		- ADMIN habilitado.
 		- BD refeito, com superusuario admin definido
+		- feito as orientacoes de inclusao do superuser
+			- arquivo initial_data.json criado e adicionado
+			 repositorio
