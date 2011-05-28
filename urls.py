@@ -9,7 +9,11 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns('django.views.generic.simple',
+    (r'^$','direct_to_template',{'template':'index.html'}),
+)
+
+urlpatterns += patterns('',
     # Examples:
     # url(r'^$', 'eventex.views.home', name='home'),
     # url(r'^eventex/', include('eventex.foo.urls')),
@@ -19,11 +23,8 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    (r'^inscricao/',include('subscription.urls',namespace='subscription')),
-)
-
-urlpatterns = patterns('django.views.generic.simple',
-    (r'^$','direct_to_template',{'template':'index.html'}),
+#    (r'^$','core.views.homepage',{'template':'index.html'}),
+    (r'^inscricao/',include('subscription.urls',namespace='subscription',app_name='subscription')),
 )
 
 urlpatterns += staticfiles_urlpatterns()

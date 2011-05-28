@@ -1,9 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
+      {% comment %}
                   <p style="font-size:x-large;">
 
                             Abertura das inscrições em 15/05/2011!
 
+                  </p>
+      {% endcomment %}
+                  <p>
+                    <strong>
+                        <span class="mylink">
+                        <a href="{% url subscription:subscribe %}">Inscreva-se Já!</a>
+                        </span>
+                    </strong>
                   </p>
 {% endblock content %}

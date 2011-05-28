@@ -21,4 +21,11 @@ Segundo Modulo: Inscricao - TODO.
 		- model criado
 			- meta definido
 		- generic views implementado
-		- templates implementadas
+		- recurso de templates implementadas
+			- uso de tags block endblock
+		- url modificadas para incorporaca do formulario
+		- formulario de inscricao adicionado
+		- route.py incorporado
+		- validacao basica funcional
+		- salvando no BD
+		-
