@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6273c42b-2f91-4c43-87cc-fc400aac86c9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Projetos\eventex\subscription\migrations\0002_auto__add_field_subscription_paid__del_unique_subscription_email.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projetos\eventex\subscription\migrations\__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscription/models.py" afterPath="$PROJECT_DIR$/subscription/models.py" />
-    </list>
+    <list default="true" id="6273c42b-2f91-4c43-87cc-fc400aac86c9" name="Default" comment="" />
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
