@@ -65,5 +65,6 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 			- CPF
 			- E-mail ou Telefone: campos opcionais, pelo menos 
 			  deles precisa ser preenchido.
+			  - FIX - campo form email precisa de require=False
 
 

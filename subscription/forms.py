@@ -18,7 +18,7 @@ from subscription import validators
 class SubscriptionForm(forms.Form):
         name = forms.CharField(label=_('Nome'), max_length=100)
         cpf = forms.CharField(label=_('CPF'), validators=[CpfValidator])
-        email = forms.EmailField(label=_('E-mail'))
+        email = forms.EmailField(label=_('E-mail'),required=False)
         phone = forms.CharField(label=_('Telefone'), required=False,max_length=20)
 
         def _unique_check(self, fieldname, error_message):
