@@ -43,7 +43,7 @@ class PhoneField(forms.MultiValueField):
     def compress(self, data_list):
 
         if not data_list:
-            return none
+            return None
 
         if data_list[0] in EMPTY_VALUES:
             raise forms.ValidationError(u'DDD inválido.')
@@ -65,7 +65,7 @@ class SubscriptionForm(forms.Form):
         name = forms.CharField(label=_('Nome'), max_length=100)
         cpf = forms.CharField(label=_('CPF'), validators=[CpfValidator])
         email = forms.EmailField(label=_('E-mail'),required=False)
-        phone = PhoneField(label=_('Telefone'), required=False,max_length=20)
+        phone = PhoneField(label=_('Telefone'), required=False)
                 #forms.CharField(label=_('Telefone'), required=False,max_length=20)
 
         def _unique_check(self, fieldname, error_message):

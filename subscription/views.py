@@ -47,8 +47,7 @@ def new(request):
 
     init_form_data = { 'name': 'Entre o seu nome',
                        'cpf': 'Digite o seu CPF sem pontos',
-                       'email': 'Informe o seu email',
-                       'phone': 'Qual seu telefone de contato?'
+                       'email': 'Informe o seu email'
                     }
 
     form = SubscriptionForm(initial=init_form_data)

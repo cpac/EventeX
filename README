@@ -67,5 +67,6 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 			  deles precisa ser preenchido.
 			  - FIX - campo form email precisa de require=False
 		- inclusao de FIELD customizado para Telefone
+			- FIX - retirado do parametro max_length
 
 
