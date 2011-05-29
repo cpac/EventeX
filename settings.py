@@ -130,6 +130,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'core',
     'subscription',
+    'south'
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
