@@ -66,10 +66,8 @@ def create(request):
 
         return render_to_response('subscription/new.html', context)
         
-    #subscription = form.save()
-    subscription = Subscription(form.cleaned_data)
-    subscription.save()
-    
+    subscription = form.save()
+
     # enviando e-mail
     
     send_mail(
