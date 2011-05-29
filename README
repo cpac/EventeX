@@ -60,5 +60,6 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 		  forms.Form
 		- campos usando ugettext e parametros basicos de validacao
 		- incluido um validator para o campo CPF do formulario
+		- incluido texto de inicializacao nos campos
 
 
