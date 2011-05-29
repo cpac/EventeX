@@ -58,5 +58,6 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 		  incluida
 		- subscription/forms.py - modificado de forms.ModelForm para
 		  forms.Form
+		- campos usando ugettext e parametros basicos de validacao
 
 
