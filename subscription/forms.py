@@ -3,7 +3,7 @@
 
 from django import forms
 
-#from subscription.models import Subscription
+from subscription.models import Subscription
 from subscription.validators import CpfValidator
 
 from django.utils.translation import ugettext as _
@@ -20,3 +20,28 @@ class SubscriptionForm(forms.Form):
         cpf = forms.CharField(label=_('CPF'), validators=[CpfValidator])
         email = forms.EmailField(label=_('E-mail'))
         phone = forms.CharField(label=_('Telefone'), required=False,max_length=20)
+
+        def _unique_check(self, fieldname, error_message):
+
+            param = { fieldname: self.cleaned_data[fieldname] }
+
+            try:
+
+                s = Subscription.objects.get(**param)
+
+            except Subscription.DoesNotExist:
+
+                return self.cleaned_data[fieldname]
+
+            raise forms.ValidationError(error_message)
+
+        def clean_cpf(self):
+
+            return self._unique_check('cpf', _(u'CPF já inscrito.'))
+
+        def clean(self):
+
+            if not self.cleaned_data.get('email') and not self.cleaned_data.get('phone'):
+                    raise forms.ValidationError(_(u'Você precisa informar seu e-mail ou seu telefone.'))
+
+            return self.cleaned_data

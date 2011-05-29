@@ -61,5 +61,9 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 		- campos usando ugettext e parametros basicos de validacao
 		- incluido um validator para o campo CPF do formulario
 		- incluido texto de inicializacao nos campos
+		- inclusao de validacoes:
+			- CPF
+			- E-mail ou Telefone: campos opcionais, pelo menos 
+			  deles precisa ser preenchido.
 
 
