@@ -60,7 +60,7 @@ class SubscriptionForm(forms.ModelForm) :
 
     class Meta:
         model = Subscription
-        exclude = ('phone','created_at','paid',)
+        exclude = ('created_at','paid',)
 
     def clean(self):
         super(SubscriptionForm, self).clean()
