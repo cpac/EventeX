@@ -54,5 +54,7 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 			-  FIX para funcionamento do herike
 		- action mark_as_paid adicionado
 		- exportacao dos inscritos em arquivo CSV
+		- template admin customizada com o link de exportacao
+		  incluida
 
 
