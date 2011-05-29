@@ -56,5 +56,7 @@ Terceiro Modulo: Modificao de requisitos - TODO.
 		- exportacao dos inscritos em arquivo CSV
 		- template admin customizada com o link de exportacao
 		  incluida
+		- subscription/forms.py - modificado de forms.ModelForm para
+		  forms.Form
 
 
